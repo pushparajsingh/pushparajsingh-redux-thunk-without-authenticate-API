@@ -11,7 +11,7 @@ export const Post = () => {
   useEffect(() => {
      axios.get("https://629dae743dda090f3c07dd7f.mockapi.io/fakeapi")
       .then(result => {
-        console.log("hello world");
+        console.log("hello world")
             dispatch(show_posts(result.data))
           }) },[]);
         
